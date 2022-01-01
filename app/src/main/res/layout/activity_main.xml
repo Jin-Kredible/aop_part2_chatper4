@@ -133,6 +133,7 @@
                 android:textColor="@color/textColor"
                 android:textSize="24sp"
                 android:layout_margin="7dp"
+                android:onClick="buttonClicked"
                 android:stateListAnimator="@null"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -151,7 +152,7 @@
                 />
             <androidx.appcompat.widget.AppCompatButton
                 android:background="@drawable/button_background"
-                android:text="X"
+                android:text="x"
                 android:id="@+id/buttonMulti"
                 android:textColor="@color/green"
                 android:textSize="24sp"
@@ -180,6 +181,7 @@
                 android:background="@drawable/button_background"
                 android:text="5"
                 android:id="@+id/button5"
+                android:onClick="buttonClicked"
                 android:textColor="@color/textColor"
                 android:textSize="24sp"
                 android:layout_margin="7dp"
@@ -236,6 +238,7 @@
                 android:layout_margin="7dp"
                 android:stateListAnimator="@null"
                 android:layout_width="wrap_content"
+                android:onClick="buttonClicked"
                 android:layout_height="match_parent"
                 />
             <androidx.appcompat.widget.AppCompatButton
